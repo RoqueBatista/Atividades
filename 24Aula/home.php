@@ -40,6 +40,7 @@ if (isset($_SESSION["msgProcessar"])) {
 </head>
 <body>
 	<a href="logout.php">Logout</a>
+	<p><a href="usuarios.php">Listar Atalhos</a></p>	
 	<h1>Home</h1>
 
 	<fieldset>

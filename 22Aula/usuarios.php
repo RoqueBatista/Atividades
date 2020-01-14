@@ -11,6 +11,7 @@
 	<p><a href="cadastrar.php">Cadastrar usu√°rio</a></p>
 	<p><a href="listar.php">Listar Usu√°rios Cadastrados</a></p>
 	<p><a href="procurar.php">Procurar Usu√°rio</a></p>
-	<p><a href="perfil.php">Perfil Usu·rios Cadastrados</a></p>	
+	<p><a href="perfil.php">Perfil Usu·rios Cadastrados</a></p>
+
 </body>
 </html>

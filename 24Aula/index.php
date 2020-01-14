@@ -8,7 +8,7 @@ if ($method == "POST") {
     
     if ($email != NULL && $senha != NULL) {
         
-        include ("classes/Usuario.php");
+        include ("classes/usuario.class.php");
         include ("conexao.php");
         global $link;
         

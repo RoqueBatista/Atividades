@@ -22,7 +22,7 @@ if ($method == "POST") {
             
             if ($resultado->num_rows > 0) {
                 
-                $msg = "E-mail já¡ cadastrado. Por favor, informe outro e-mail";
+                $msg = "E-mail jï¿½ cadastrado. Por favor, informe outro e-mail";
             } else {
                 
                 $resultado = mysqli_query($link, "INSERT INTO cadastro_usuarios.usuario (usuario, senha) VALUES ('$email', '$senha')");
@@ -33,14 +33,14 @@ if ($method == "POST") {
                     
                     if ($rowsAffected > 0) {
                         
-                        $msg = "Usuário cadastrado com sucesso!";
+                        $msg = "Usuario cadastrado com sucesso!";
                         
                     } else {
-                        $msg = "Erro ao inserir usuário. Tente novamente";
+                        $msg = "Erro ao inserir usuï¿½rio. Tente novamente";
                     }
                     
                 } else {
-                    $msg = "Erro ao inserir usuário. Tente novamente";
+                    $msg = "Erro ao inserir usuï¿½rio. Tente novamente";
                 }
             }
             
@@ -80,7 +80,7 @@ if ($method == "POST") {
 		<?php } ?>
 	</form>
 	<p>
-		JÃ¡ possui uma conta? <a href="index.php">Faça seu login</a>
+		JÃ¡ possui uma conta? <a href="index.php">FaÃ§a seu login</a>
 	</p>
 </body>
 </html>

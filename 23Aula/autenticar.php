@@ -8,7 +8,7 @@ session_start();
 $email = $_POST["email"];
 $senha = $_POST["senha"];
 
-$resultado = mysqli_query($link, "SELECT * FROM cadastro_usuarios.usuario WHERE email = '$email' and senha = '$senha'");
+$resultado = mysqli_query($link, "SELECT * FROM cadastro_usuarios.usuario WHERE usuario = '$email' and senha = '$senha'");
 
 if ($resultado && $resultado->num_rows == 1) {
     // Usuário Logado!
